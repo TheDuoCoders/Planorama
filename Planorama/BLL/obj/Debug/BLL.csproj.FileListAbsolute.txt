@@ -1,0 +1,10 @@
+D:\Project\Planorama\Planorama\BLL\bin\Debug\BLL.dll
+D:\Project\Planorama\Planorama\BLL\bin\Debug\BLL.pdb
+D:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.dll
+D:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.pdb
+D:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.dll.config
+D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.dll
+D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,7 @@
+D:\Project\Planorama\Planorama\DAL\bin\Debug\DAL.dll.config
+D:\Project\Planorama\Planorama\DAL\bin\Debug\DAL.dll
+D:\Project\Planorama\Planorama\DAL\bin\Debug\DAL.pdb
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.dll
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.pdb
