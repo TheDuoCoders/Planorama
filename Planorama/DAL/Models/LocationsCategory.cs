@@ -21,5 +21,12 @@ namespace DAL.Models
         [Required]
         [StringLength(200)]
         public string Description { get; set; }
+
+        public virtual ICollection<Location> Locations { get; set; }
+
+        public LocationsCategory()
+        {
+            Locations = new List<Location>();
+        }
     }
 }

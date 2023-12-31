@@ -19,5 +19,12 @@ namespace DAL.Models
         [Required]
         [StringLength(200)]
         public string Description { get; set; }
+
+        public virtual ICollection<Decoration> Decorations { get; set; }
+
+        public DecorationsCategory()
+        {
+            Decorations = new List<Decoration>();
+        }
     }
 }
