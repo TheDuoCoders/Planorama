@@ -19,7 +19,7 @@ namespace DAL.Models
         public string Name { get; set; }
 
         [ForeignKey("LocationsCategory")]
-        public int FoodCategory { get; set; }
+        public int LocationCategory { get; set; }
 
         [Required]
         [StringLength(20)]
@@ -38,6 +38,8 @@ namespace DAL.Models
         [Required]
 
         public int TimesSelected { get; set; }
+
+        public virtual LocationsCategory LocationsCategory { get; set; }
 
     }
 }

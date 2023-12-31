@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    public class FoodCategory
+    public class FoodsCategory
     {
         [Key]
         public int Id { get; set; }
