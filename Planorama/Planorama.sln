@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planorama", "Planorama\Planorama.csproj", "{2A5F7215-FC9B-43D8-9905-BA0F170D6D2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{1FE5EF88-2371-4833-AAFA-B166EB3240B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{9F8C469C-113C-419B-B0A1-E2BD0F04D0D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2A5F7215-FC9B-43D8-9905-BA0F170D6D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A5F7215-FC9B-43D8-9905-BA0F170D6D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A5F7215-FC9B-43D8-9905-BA0F170D6D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE5EF88-2371-4833-AAFA-B166EB3240B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE5EF88-2371-4833-AAFA-B166EB3240B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE5EF88-2371-4833-AAFA-B166EB3240B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE5EF88-2371-4833-AAFA-B166EB3240B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8C469C-113C-419B-B0A1-E2BD0F04D0D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8C469C-113C-419B-B0A1-E2BD0F04D0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8C469C-113C-419B-B0A1-E2BD0F04D0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8C469C-113C-419B-B0A1-E2BD0F04D0D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
