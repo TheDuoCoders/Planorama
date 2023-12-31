@@ -8,3 +8,13 @@ D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.dll
 D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.pdb
+G:\Project\Planorama\Planorama\BLL\bin\Debug\BLL.dll
+G:\Project\Planorama\Planorama\BLL\bin\Debug\BLL.pdb
+G:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.dll
+G:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.pdb
+G:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.dll.config
+G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.dll
+G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.pdb

@@ -5,3 +5,15 @@ D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.dll
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.pdb
+G:\Project\Planorama\Planorama\DAL\bin\Debug\DAL.dll.config
+G:\Project\Planorama\Planorama\DAL\bin\Debug\DAL.dll
+G:\Project\Planorama\Planorama\DAL\bin\Debug\DAL.pdb
+G:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.dll
+G:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.xml
+G:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.dll
+G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.pdb
