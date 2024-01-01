@@ -9,10 +9,11 @@ using System.Threading.Tasks;
 namespace DAL.Models
 {
     public class Booking
-    {
+    {   //need to fix
         public int Id { get; set; }
 
         [Required]
+        [ForeignKey("Package")]
         public int PackageId { get; set; }
 
         [Required]
@@ -26,5 +27,7 @@ namespace DAL.Models
         public DateTime OrderTime { get; set; }
 
         public virtual User User { get; set; }
+        public virtual Package Package { get; set; }
+
     }
 }
