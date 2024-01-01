@@ -15,6 +15,13 @@ namespace DAL.Models
         public DbSet<Decoration> Decorations { get; set; }
         public DbSet<LocationsCategory> LocationsCategories { get; set; }
         public DbSet<Location> Locations { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Booking> Bookings { get; set; }
+        public DbSet<Coupon> Coupons { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
+        public DbSet<Review> Reviews { get; set; }
+
+
 
 
 
