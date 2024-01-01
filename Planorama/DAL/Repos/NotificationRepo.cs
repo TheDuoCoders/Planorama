@@ -8,48 +8,44 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class FoodsCategoryRepo : Repos, IRepo<FoodsCategory,int, bool> 
+    internal class NotificationRepo : Repos, IRepo<Notification, int, bool>
     {
-        public bool Create(FoodsCategory obj)
+        public bool Create(Notification obj)
         {
-            db.FoodsCategories.Add(obj);
+            db.Notifications.Add(obj);
 
             if (db.SaveChanges() > 0)
             {
                 return true;
             }
-            else 
-            { 
+            else
+            {
                 return false;
             }
-
         }
 
         public bool Delete(int id)
         {
             var ex = Read(id);
-            db.FoodsCategories.Remove(ex);
-            return db.SaveChanges()>0;
-
-            
+            db.Notifications.Remove(ex);
+            return db.SaveChanges() > 0;
         }
 
-        public List<FoodsCategory> Read()
+        public List<Notification> Read()
         {
-            return db.FoodsCategories.ToList();
+            return db.Notifications.ToList();
         }
 
-        public FoodsCategory Read(int id)
+        public Notification Read(int id)
         {
-            return db.FoodsCategories.Find(id);
-
+            return db.Notifications.Find(id);
         }
 
-        public bool Update(FoodsCategory obj)
+        public bool Update(Notification obj)
         {
-            var ex = Read (obj.Id);
+            var ex = Read(obj.Id);
             db.Entry(ex).CurrentValues.SetValues(obj);
-            if(db.SaveChanges() > 0)
+            if (db.SaveChanges() > 0)
             {
                 return true;
             }
@@ -58,7 +54,6 @@ namespace DAL.Repos
             {
                 return false;
             }
-
         }
     }
 }
