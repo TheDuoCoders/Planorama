@@ -153,7 +153,6 @@
     <Compile Include="Controllers\BookingController.cs" />
     <Compile Include="Controllers\CouponController.cs" />
     <Compile Include="Controllers\CustomPackageController.cs" />
-    <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\FoodsCategoryController.cs" />
     <Compile Include="Controllers\NotificationController.cs" />
     <Compile Include="Controllers\PackageController.cs" />
