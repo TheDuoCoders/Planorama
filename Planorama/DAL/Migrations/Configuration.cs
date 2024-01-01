@@ -27,6 +27,38 @@
                     Name = Guid.NewGuid().ToString().Substring(0, 15),
                     Description = Guid.NewGuid().ToString().Substring(0, 200),
                     
+                });
+            }
+
+            for (int i = 1; i <= 6; i++)
+            {
+                context.DecorationsCategories.AddOrUpdate(new Models.DecorationsCategory
+                {
+                    Id = i,
+                    Name = Guid.NewGuid().ToString().Substring(0, 15),
+                    Description = Guid.NewGuid().ToString().Substring(0, 200),
+
+                });
+            }
+
+            for (int i = 1; i <= 6; i++)
+            {
+                context.DecorationsCategories.AddOrUpdate(new Models.DecorationsCategory
+                {
+                    Id = i,
+                    Name = Guid.NewGuid().ToString().Substring(0, 15),
+                    Description = Guid.NewGuid().ToString().Substring(0, 200),
+
+                });
+            }
+
+            for (int i = 1; i <= 6; i++)
+            {
+                context.LocationsCategories.AddOrUpdate(new Models.LocationsCategory
+                {
+                    Id = i,
+                    Name = Guid.NewGuid().ToString().Substring(0, 15),
+                    Description = Guid.NewGuid().ToString().Substring(0, 200),
 
                 });
             }
