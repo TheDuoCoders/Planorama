@@ -19,6 +19,9 @@
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
+            DateTime currentDate = DateTime.Now;
+            Random random = new Random();
+
 
             //foodCategory (6 categories)
             for (int i = 1; i <= 6; i++)
@@ -31,6 +34,27 @@
 
                 }) ;
             }
+
+            //food (20 categories)
+            for (int i = 1; i <= 6; i++)
+            {
+                context.Foods.AddOrUpdate(new Models.Food
+                {
+                    Id = i,
+                    Name = Guid.NewGuid().ToString().Substring(0, 15),
+                    Description = Guid.NewGuid().ToString().Substring(0, 20),
+                    Picture = Guid.NewGuid().ToString().Substring(0, 10),
+                    Price = random.Next(2,6)*100,
+                    FoodCategory = random.Next(1, 6),
+                    TimesSelected = random.Next(10, 50),
+                });
+            }
+
+
+
+
+
+
 
             //DecorationCategory (6 categories)
             for (int i = 1; i <= 6; i++)
@@ -59,8 +83,7 @@
             //-----------------------------------------------------------
 
             //user table (10 users)
-            DateTime currentDate = DateTime.Now;
-            Random random = new Random();
+            
 
             for (int i = 1; i <= 10; i++)
             {
