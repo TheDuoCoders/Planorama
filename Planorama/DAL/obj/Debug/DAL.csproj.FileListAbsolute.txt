@@ -29,3 +29,4 @@ D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.new_basiceFilesAdded
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intDb.resources
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intDbNew.resources
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intDbNewadded.resources
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intseedUser.resources

@@ -75,6 +75,10 @@
     <Compile Include="Migrations\202401010752259_intDbNewadded.designer.cs">
       <DependentUpon>202401010752259_intDbNewadded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401010804126_intseedUser.cs" />
+    <Compile Include="Migrations\202401010804126_intseedUser.designer.cs">
+      <DependentUpon>202401010804126_intseedUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Booking.cs" />
     <Compile Include="Models\Coupon.cs" />
@@ -127,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401010752259_intDbNewadded.resx">
       <DependentUpon>202401010752259_intDbNewadded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401010804126_intseedUser.resx">
+      <DependentUpon>202401010804126_intseedUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
