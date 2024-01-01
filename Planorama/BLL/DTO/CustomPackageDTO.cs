@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BLL.DTO
 {
-    internal class CustomPackageDTO
+    public class CustomPackageDTO
     {
         public int Id { get; set; }
 
