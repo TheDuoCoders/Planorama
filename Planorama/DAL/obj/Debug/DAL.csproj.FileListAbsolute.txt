@@ -31,3 +31,24 @@ D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intseedUser.resource
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.BookingUpdated.resources
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.FoodUpdated.resources
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.initpackageadd.resources
+D:\Dot Net\Planorama\Planorama\DAL\bin\Debug\DAL.dll.config
+D:\Dot Net\Planorama\Planorama\DAL\bin\Debug\DAL.dll
+D:\Dot Net\Planorama\Planorama\DAL\bin\Debug\DAL.pdb
+D:\Dot Net\Planorama\Planorama\DAL\bin\Debug\EntityFramework.xml
+D:\Dot Net\Planorama\Planorama\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.init_basiceFileAdded.resources
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.new_basiceFilesAdded.resources
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.new_basiceFilesAdded1.resources
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intDb.resources
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intDbNew.resources
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intDbNewadded.resources
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intseedUser.resources
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.BookingUpdated.resources
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.FoodUpdated.resources
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.initpackageadd.resources
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.dll
+D:\Dot Net\Planorama\Planorama\DAL\obj\Debug\DAL.pdb

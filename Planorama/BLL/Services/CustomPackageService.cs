@@ -35,5 +35,32 @@ namespace BLL.Services
             var mapped = mapper.Map<CustomPackageDTO>(data);
             return mapped;
         }
+
+        public static bool Create(CustomPackageDTO customPackage)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<CustomPackageDTO, CustomPackage>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<CustomPackage>(customPackage);
+            return DataAccessFactory.CustomPackageData().Create(data);
+        }
+
+        public static bool Update(CustomPackageDTO customPackage)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<CustomPackageDTO, CustomPackage>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<CustomPackage>(customPackage);
+            return DataAccessFactory.CustomPackageData().Update(data);
+        }
+
+        public static bool Delete(int customPackageId)
+        {
+            return DataAccessFactory.CustomPackageData().Delete(customPackageId);
+        }
     }
 }
