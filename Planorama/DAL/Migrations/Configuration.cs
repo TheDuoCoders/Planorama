@@ -195,7 +195,7 @@
             }
 
             //Booking table (5 Custom Packages)
-            for (int i = 1; i <= 5; i++)
+            /*for (int i = 1; i <= 5; i++)
             {
                 context.Bookings.AddOrUpdate(new Models.Booking
                 {
@@ -206,7 +206,7 @@
                     CouponId = 0,
                     OrderTime = DateTime.Now,
                 });
-            }
+            }*/
 
 
         }

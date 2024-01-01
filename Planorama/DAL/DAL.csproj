@@ -93,6 +93,14 @@
     <Compile Include="Migrations\202401011326471_initpackageadd.designer.cs">
       <DependentUpon>202401011326471_initpackageadd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401011450595_addeed.cs" />
+    <Compile Include="Migrations\202401011450595_addeed.designer.cs">
+      <DependentUpon>202401011450595_addeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401011453226_adds.cs" />
+    <Compile Include="Migrations\202401011453226_adds.designer.cs">
+      <DependentUpon>202401011453226_adds.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Booking.cs" />
     <Compile Include="Models\Coupon.cs" />
@@ -180,6 +188,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401011326471_initpackageadd.resx">
       <DependentUpon>202401011326471_initpackageadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401011450595_addeed.resx">
+      <DependentUpon>202401011450595_addeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401011453226_adds.resx">
+      <DependentUpon>202401011453226_adds.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

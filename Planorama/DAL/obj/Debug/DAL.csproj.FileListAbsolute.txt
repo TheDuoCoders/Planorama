@@ -31,3 +31,5 @@ D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intseedUser.resource
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.BookingUpdated.resources
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.FoodUpdated.resources
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.initpackageadd.resources
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.addeed.resources
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.adds.resources
