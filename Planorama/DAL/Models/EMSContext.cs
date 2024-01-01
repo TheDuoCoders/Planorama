@@ -20,5 +20,11 @@ namespace DAL.Models
         public DbSet<Coupon> Coupons { get; set; }
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<Package> Packages { get; set; }
+
+
+
+
+
     }
 }
