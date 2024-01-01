@@ -21,10 +21,7 @@ namespace DAL.Models
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Package> Packages { get; set; }
-
-
-
-
+        public DbSet<CustomPackage> CustomPackages { get; set; }
 
     }
 }

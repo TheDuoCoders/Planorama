@@ -42,10 +42,12 @@ namespace DAL.Models
         public virtual DecorationsCategory DecorationsCategory { get; set; }
 
         public virtual ICollection<Package> Packages { get; set; }
+        public virtual ICollection<CustomPackage> CustomPackages { get; set; }
 
         public Decoration()
         {
             Packages = new List<Package>();
+            CustomPackages = new List<CustomPackage>();
         }
 
     }

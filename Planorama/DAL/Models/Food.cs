@@ -42,11 +42,12 @@ namespace DAL.Models
         public virtual FoodsCategory FoodsCategory { get; set; }
 
         public virtual ICollection<Package> Packages { get; set; }
+        public virtual ICollection<CustomPackage> CustomPackages { get; set; }
 
         public Food()
         {
             Packages = new List<Package>();
-
+            CustomPackages = new List<CustomPackage>();
         }
 
     }
