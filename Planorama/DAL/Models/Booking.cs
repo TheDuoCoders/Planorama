@@ -24,7 +24,7 @@ namespace DAL.Models
         public string OrderedBy { get; set; }
 
         [ForeignKey("Coupon")]
-        public string CouponText { get; set; }
+        public int CouponId { get; set; }
 
         [Required]
         public DateTime OrderTime { get; set; }
