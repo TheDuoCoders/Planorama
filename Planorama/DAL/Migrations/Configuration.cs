@@ -194,6 +194,7 @@
                 });
             }
 
+<<<<<<< HEAD
             //Notification table (5 Notification)
             for (int i = 1; i <= 5; i++)
             {
@@ -208,17 +209,28 @@
 
             //Booking table (5 Booking)
             for (int i = 1; i <= 5; i++)
+=======
+            //Booking table (5 Custom Packages)
+            /*for (int i = 1; i <= 5; i++)
+>>>>>>> parent of 43d48af (Merge branch 'main' of https://github.com/TheDuoCoders/Planorama)
             {
                 context.Bookings.AddOrUpdate(new Models.Booking
                 {
                     Id = i,
+<<<<<<< HEAD
                     PackageId = random.Next(1, 10),
                     Price = random.Next(50, 1500) * 1000,
                     OrderedBy = "User-" + random.Next(1, 6),
                     CouponId = 1,
+=======
+                    PackageId = random.Next(1, 11),
+                    Price = random.Next(50, 1500) * 10000,
+                    OrderedBy = "User-" + i,
+                    CouponId = 0,
+>>>>>>> parent of 43d48af (Merge branch 'main' of https://github.com/TheDuoCoders/Planorama)
                     OrderTime = DateTime.Now,
                 });
-            }
+            }*/
 
 
         }
