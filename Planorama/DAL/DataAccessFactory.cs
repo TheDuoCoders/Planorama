@@ -82,5 +82,12 @@ namespace DAL
             return new UserRepo();
 
         }
+
+        public static IRepo<CustomPackage, int, bool> CustomPackageData()
+        {
+            return new CustomPackageRepo();
+
+        }
+
     }
 }

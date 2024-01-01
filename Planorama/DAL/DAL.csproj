@@ -85,9 +85,18 @@
     <Compile Include="Migrations\202401011013341_BookingUpdated.designer.cs">
       <DependentUpon>202401011013341_BookingUpdated.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401011320213_FoodUpdated.cs" />
+    <Compile Include="Migrations\202401011320213_FoodUpdated.designer.cs">
+      <DependentUpon>202401011320213_FoodUpdated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401011326471_initpackageadd.cs" />
+    <Compile Include="Migrations\202401011326471_initpackageadd.designer.cs">
+      <DependentUpon>202401011326471_initpackageadd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Booking.cs" />
     <Compile Include="Models\Coupon.cs" />
+    <Compile Include="Models\CustomPackage.cs" />
     <Compile Include="Models\Decoration.cs" />
     <Compile Include="Models\DecorationsCategory.cs" />
     <Compile Include="Models\EMSContext.cs" />
@@ -101,16 +110,24 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\BookingRepo.cs" />
+    <Compile Include="Repos\CouponRepo.cs" />
+    <Compile Include="Repos\CustomPackageRepo.cs" />
     <Compile Include="Repos\DecorationRepo.cs" />
     <Compile Include="Repos\DecorationsCategoryRepo.cs" />
     <Compile Include="Repos\FoodRepo.cs" />
     <Compile Include="Repos\FoodsCategoryRepo.cs" />
     <Compile Include="Repos\LocationRepo.cs" />
     <Compile Include="Repos\LocationsCategoryRepo.cs" />
+    <Compile Include="Repos\NotificationRepo.cs" />
+    <Compile Include="Repos\PackageRepo.cs" />
     <Compile Include="Repos\Repos.cs" />
+    <Compile Include="Repos\ReviewRepo.cs" />
+    <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\DAL.dll.config" />
     <None Include="obj\Debug\DAL.csproj.AssemblyReference.cache" />
     <None Include="obj\Debug\DAL.csproj.CopyComplete" />
     <None Include="obj\Debug\DAL.csproj.CoreCompileInputs.cache" />
@@ -119,11 +136,18 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\DAL.dll" />
+    <Content Include="bin\Debug\DAL.pdb" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
     <Content Include="obj\Debug\DAL.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\DAL.dll" />
     <Content Include="obj\Debug\DAL.pdb" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\Release\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +174,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401011013341_BookingUpdated.resx">
       <DependentUpon>202401011013341_BookingUpdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401011320213_FoodUpdated.resx">
+      <DependentUpon>202401011320213_FoodUpdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401011326471_initpackageadd.resx">
+      <DependentUpon>202401011326471_initpackageadd.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

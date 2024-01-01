@@ -19,6 +19,7 @@
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
+
             DateTime currentDate = DateTime.Now;
             Random random = new Random();
 
@@ -42,10 +43,10 @@
                 {
                     Id = i,
                     Name = Guid.NewGuid().ToString().Substring(0, 15),
-                    Description = Guid.NewGuid().ToString().Substring(0, 20),
-                    Picture = Guid.NewGuid().ToString().Substring(0, 10),
-                    Price = random.Next(2,6)*100,
                     FoodCategory = random.Next(1, 6),
+                    Picture = Guid.NewGuid().ToString().Substring(0, 10),
+                    Description = Guid.NewGuid().ToString().Substring(0, 20),
+                    Price = random.Next(2, 6) * 100,
                     TimesSelected = random.Next(10, 50),
                 });
             }
@@ -63,6 +64,23 @@
                 });
             }
 
+            //Decoration (20 categories)
+            for (int i = 1; i <= 6; i++)
+            {
+                context.Decorations.AddOrUpdate(new Models.Decoration
+                {
+                    Id = i,
+                    Name = Guid.NewGuid().ToString().Substring(0, 15),
+                    DecorationCategory = random.Next(1, 6),
+                    Picture = Guid.NewGuid().ToString().Substring(0, 10),
+                    Description = Guid.NewGuid().ToString().Substring(0, 20),                    
+                    Price = random.Next(2, 6) * 10000,
+                    TimesSelected = random.Next(10, 50),
+
+
+                });
+            }
+
             //LocationCategory (6 categories)
             for (int i = 1; i <= 6; i++)
             {
@@ -75,12 +93,28 @@
                 });
             }
 
-           
+            //Location (20 categories)
+            for (int i = 1; i <= 6; i++)
+            {
+                context.Locations.AddOrUpdate(new Models.Location
+                {
+                    Id = i,
+                    Name = Guid.NewGuid().ToString().Substring(0, 15),
+                    LocationCategory = random.Next(1, 6),
+                    Picture = Guid.NewGuid().ToString().Substring(0, 10),
+                    Description = Guid.NewGuid().ToString().Substring(0, 20),
+                    Price = random.Next(2, 6) * 10000,
+                    TimesSelected = random.Next(10, 50),
+
+
+                });
+            }
+
 
             //-----------------------------------------------------------
 
             //user table (10 users)
-            
+
 
             for (int i = 1; i <= 10; i++)
             {
@@ -125,7 +159,7 @@
                 });
             }
 
-            //Package table (10 Packages)
+            /*/Package table (10 Packages)
             for (int i = 1; i <= 10; i++)
             {
                 context.Packages.AddOrUpdate(new Models.Package
@@ -158,7 +192,7 @@
                     //Location Id Need
                     GuestAmount = random.Next(1, 50) * 100,
                 });
-            }
+            }*/
 
 
         }
