@@ -19,5 +19,13 @@ namespace DAL.Models
 
         [Required]
         public DateTime Validity { get; set; }
+
+        public virtual ICollection<Booking> Bookings { get; set; }
+
+        public Coupon() { 
+        
+            Bookings = new List<Booking>();
+        }
+
     }
 }

@@ -23,11 +23,15 @@ namespace DAL.Models
         [ForeignKey("User")]
         public string OrderedBy { get; set; }
 
+        [ForeignKey("Coupon")]
+        public string CouponText { get; set; }
+
         [Required]
         public DateTime OrderTime { get; set; }
 
         public virtual User User { get; set; }
         public virtual Package Package { get; set; }
+        public virtual Coupon Coupon { get; set; }
 
     }
 }

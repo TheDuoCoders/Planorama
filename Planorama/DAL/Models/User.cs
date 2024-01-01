@@ -21,7 +21,7 @@ namespace DAL.Models
         public string Password { get; set; }
 
         [Required]
-        public DateTime DOB { get; set; }
+        public DateTime DOB { get; set; }                
 
         [Required]
         public string Phone { get; set; }
