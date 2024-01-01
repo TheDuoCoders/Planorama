@@ -41,5 +41,12 @@ namespace DAL.Models
 
         public virtual LocationsCategory LocationsCategory { get; set; }
 
+        public virtual ICollection<Package> Packages { get; set; }
+
+        public Location()
+        {
+            Packages = new List<Package>();
+        }
+
     }
 }
