@@ -12,7 +12,7 @@ namespace BLL.DTO
         public int Id { get; set; }
 
         [Required]
-        public int CouponId { get; set; }
+        public string CouponText { get; set; }
 
         [Required]
         public int DiscountPercentage { get; set; }
