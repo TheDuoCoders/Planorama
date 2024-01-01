@@ -35,5 +35,34 @@ namespace BLL.Services
             var mapped = mapper.Map<CouponDTO>(data);
             return mapped;
         }
+
+        public static bool Create(CouponDTO coupon)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<CouponDTO, Coupon>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<Coupon>(coupon);
+            return DataAccessFactory.CouponData().Create(data);
+        }
+
+        public static bool Update(CouponDTO coupon)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<CouponDTO, Coupon>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<Coupon>(coupon);
+            return DataAccessFactory.CouponData().Update(data);
+        }
+
+        public static bool Delete(int couponId)
+        {
+            return DataAccessFactory.CouponData().Delete(couponId);
+        }
+
+
     }
 }

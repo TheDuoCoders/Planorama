@@ -35,5 +35,32 @@ namespace BLL.Services
             var mapped = mapper.Map<NotificationDTO>(data);
             return mapped;
         }
+
+        public static bool Create(NotificationDTO notification)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<NotificationDTO, Notification>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<Notification>(notification);
+            return DataAccessFactory.NotificationData().Create(data);
+        }
+
+        public static bool Update(NotificationDTO notification)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<NotificationDTO, Notification>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<Notification>(notification);
+            return DataAccessFactory.NotificationData().Update(data);
+        }
+
+        public static bool Delete(int notificationId)
+        {
+            return DataAccessFactory.NotificationData().Delete(notificationId);
+        }
     }
 }
