@@ -22,3 +22,10 @@ D:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.xml
 D:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.init_basiceFileAdded.resources
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.new_basiceFilesAdded.resources
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.new_basiceFilesAdded1.resources
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intDb.resources
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intDbNew.resources
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.intDbNewadded.resources

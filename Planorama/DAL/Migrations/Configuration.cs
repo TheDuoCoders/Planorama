@@ -24,10 +24,10 @@
                 context.FoodsCategories.AddOrUpdate(new Models.FoodsCategory
                 {
                     Id = i,
-                    Name = Guid.NewGuid().ToString().Substring(0, 15),
-                    Description = Guid.NewGuid().ToString().Substring(0, 200),
-                    
-                });
+                    Name = Guid.NewGuid().ToString().Substring(0,15),
+                    Description = Guid.NewGuid().ToString().Substring(0, 20),
+
+                }) ;
             }
 
             for (int i = 1; i <= 6; i++)
@@ -36,18 +36,7 @@
                 {
                     Id = i,
                     Name = Guid.NewGuid().ToString().Substring(0, 15),
-                    Description = Guid.NewGuid().ToString().Substring(0, 200),
-
-                });
-            }
-
-            for (int i = 1; i <= 6; i++)
-            {
-                context.DecorationsCategories.AddOrUpdate(new Models.DecorationsCategory
-                {
-                    Id = i,
-                    Name = Guid.NewGuid().ToString().Substring(0, 15),
-                    Description = Guid.NewGuid().ToString().Substring(0, 200),
+                    Description = Guid.NewGuid().ToString().Substring(0, 20),
 
                 });
             }
@@ -58,10 +47,11 @@
                 {
                     Id = i,
                     Name = Guid.NewGuid().ToString().Substring(0, 15),
-                    Description = Guid.NewGuid().ToString().Substring(0, 200),
+                    Description = Guid.NewGuid().ToString().Substring(0, 20),
 
                 });
             }
+
         }
     }
 }
