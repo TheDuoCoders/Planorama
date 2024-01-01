@@ -36,5 +36,32 @@ namespace BLL.Services
             return mapped;
 
         }
+
+        public static bool Create(FoodDTO food)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<FoodDTO, Food>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<Food>(food);
+            return DataAccessFactory.FoodData().Create(data);
+        }
+
+        public static bool Update(FoodDTO food)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<FoodDTO, Food>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<Food>(food);
+            return DataAccessFactory.FoodData().Update(data);
+        }
+
+        public static bool Delete(int foodId)
+        {
+            return DataAccessFactory.FoodData().Delete(foodId);
+        }
     }
 }
