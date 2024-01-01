@@ -18,3 +18,5 @@ G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CopyComplete
 G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.dll
 G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.pdb
+D:\Project\Planorama\Planorama\BLL\bin\Debug\EntityFramework.dll
+D:\Project\Planorama\Planorama\BLL\bin\Debug\EntityFramework.xml

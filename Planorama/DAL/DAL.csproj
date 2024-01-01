@@ -51,12 +51,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Decoration.cs" />
+    <Compile Include="Models\DecorationsCategory.cs" />
+    <Compile Include="Models\EMSContext.cs" />
+    <Compile Include="Models\Food.cs" />
+    <Compile Include="Models\FoodsCategory.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\LocationsCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

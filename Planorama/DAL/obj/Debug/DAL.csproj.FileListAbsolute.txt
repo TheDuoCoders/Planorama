@@ -17,3 +17,8 @@ G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CopyComplete
 G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.dll
 G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.pdb
+D:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.dll
+D:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.xml
+D:\Project\Planorama\Planorama\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CopyComplete
