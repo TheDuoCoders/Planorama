@@ -101,6 +101,14 @@
     <Compile Include="Migrations\202401011453226_adds.designer.cs">
       <DependentUpon>202401011453226_adds.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401011654341_noftibokking.cs" />
+    <Compile Include="Migrations\202401011654341_noftibokking.designer.cs">
+      <DependentUpon>202401011654341_noftibokking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401011659241_noftibokkingsadded.cs" />
+    <Compile Include="Migrations\202401011659241_noftibokkingsadded.designer.cs">
+      <DependentUpon>202401011659241_noftibokkingsadded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Booking.cs" />
     <Compile Include="Models\Coupon.cs" />
@@ -194,6 +202,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401011453226_adds.resx">
       <DependentUpon>202401011453226_adds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401011654341_noftibokking.resx">
+      <DependentUpon>202401011654341_noftibokking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401011659241_noftibokkingsadded.resx">
+      <DependentUpon>202401011659241_noftibokkingsadded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

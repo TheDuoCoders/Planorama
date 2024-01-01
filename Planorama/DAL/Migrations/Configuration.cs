@@ -215,7 +215,7 @@
                     PackageId = random.Next(1, 10),
                     Price = random.Next(50, 1500) * 1000,
                     OrderedBy = "User-" + random.Next(1, 6),
-                    CouponId = 0,
+                    CouponId = 1,
                     OrderTime = DateTime.Now,
                 });
             }
