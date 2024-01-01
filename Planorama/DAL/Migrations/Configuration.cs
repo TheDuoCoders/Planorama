@@ -194,19 +194,31 @@
                 });
             }
 
+            //Notification table (5 Notification)
+            for (int i = 1; i <= 5; i++)
+            {
+                context.Notifications.AddOrUpdate(new Models.Notification
+                {
+                    Id = i,
+                    NotificationMessage = Guid.NewGuid().ToString().Substring(0, 20),
+                    NotificationTime = DateTime.Now,
+                    NotifiedUser = "User-" + random.Next(1, 6),
+                });
+            }
+
             //Booking table (5 Custom Packages)
-            /*for (int i = 1; i <= 5; i++)
+            for (int i = 1; i <= 5; i++)
             {
                 context.Bookings.AddOrUpdate(new Models.Booking
                 {
                     Id = i,
-                    PackageId = random.Next(1, 11),
-                    Price = random.Next(50, 1500) * 10000,
-                    OrderedBy = "User-" + i,
+                    PackageId = random.Next(1, 10),
+                    Price = random.Next(50, 1500) * 1000,
+                    OrderedBy = "User-" + random.Next(1, 6),
                     CouponId = 0,
                     OrderTime = DateTime.Now,
                 });
-            }*/
+            }
 
 
         }
