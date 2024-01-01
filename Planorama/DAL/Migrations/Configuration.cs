@@ -52,7 +52,28 @@
                 });
             }
 
+            //-----------------------------------------------------------
 
+
+            DateTime currentDate = DateTime.Now;
+            Random random = new Random();
+            int randomAge = random.Next(18, 51);
+
+            for (int i = 1; i <= 6; i++)
+            {
+                context.Users.AddOrUpdate(new Models.User
+                {
+                    Uname = "User-" + i,
+                    Name = Guid.NewGuid().ToString().Substring(0, 15),
+                    Password = Guid.NewGuid().ToString().Substring(0, 15),
+                    DOB = currentDate.AddYears(-randomAge),
+                    Phone = Guid.NewGuid().ToString().Substring(0, 11),
+                    Address = Guid.NewGuid().ToString().Substring(0, 20),
+                    Points = 0,
+                    UserType = "General",
+
+                });
+            }
         }
     }
 }
