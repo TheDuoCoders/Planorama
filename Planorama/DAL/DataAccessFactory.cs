@@ -46,5 +46,41 @@ namespace DAL
             return new LocationRepo();
 
         }
+
+        public static IRepo<Booking, int, bool> BookingData()
+        {
+            return new BookingRepo();
+
+        }
+
+        public static IRepo<Coupon, int, bool> CouponData()
+        {
+            return new CouponRepo();
+
+        }
+
+        public static IRepo<Notification, int, bool> NotificationData()
+        {
+            return new NotificationRepo();
+
+        }
+
+        public static IRepo<Package, int, bool> PackageData()
+        {
+            return new PackageRepo();
+
+        }
+
+        public static IRepo<Review, int, bool> ReviewData()
+        {
+            return new ReviewRepo();
+
+        }
+
+        public static IRepo<User, string, bool> UserData()
+        {
+            return new UserRepo();
+
+        }
     }
 }
