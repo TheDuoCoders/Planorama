@@ -11,7 +11,7 @@ namespace Planorama.Controllers
     public class FoodsCategoryController : ApiController
     {
         [HttpGet]
-        [Route("api/FoodsCategory/all")]
+        [Route("api/foodscategory/all")]
         public HttpResponseMessage FoodsCategories()
         {
             try
@@ -28,7 +28,7 @@ namespace Planorama.Controllers
         }
 
         [HttpGet]
-        [Route("api/demertments/{id}")]
+        [Route("api/foodscategory/{id}")]
 
         public HttpResponseMessage FoodsCategoriesByID(int Id)
         {

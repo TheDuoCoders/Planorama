@@ -37,6 +37,31 @@ namespace BLL.Services
 
         }
 
+        public static bool Create(LocationDTO location)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<LocationDTO, Location>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<Location>(location);
+            return DataAccessFactory.LocationData().Create(data);
+        }
 
+        public static bool Update(LocationDTO location)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<LocationDTO, Location>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<Location>(location);
+            return DataAccessFactory.LocationData().Update(data);
+        }
+
+        public static bool Delete(int locationId)
+        {
+            return DataAccessFactory.LocationData().Delete(locationId);
+        }
     }
 }

@@ -1,13 +1,3 @@
-D:\Project\Planorama\Planorama\BLL\bin\Debug\BLL.dll
-D:\Project\Planorama\Planorama\BLL\bin\Debug\BLL.pdb
-D:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.dll
-D:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.pdb
-D:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.dll.config
-D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
-D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
-D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CopyComplete
-D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.dll
-D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.pdb
 G:\Project\Planorama\Planorama\BLL\bin\Debug\BLL.dll
 G:\Project\Planorama\Planorama\BLL\bin\Debug\BLL.pdb
 G:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.dll
@@ -18,8 +8,6 @@ G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CopyComplete
 G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.dll
 G:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.pdb
-D:\Project\Planorama\Planorama\BLL\bin\Debug\EntityFramework.dll
-D:\Project\Planorama\Planorama\BLL\bin\Debug\EntityFramework.xml
 D:\Dot Net\Planorama\Planorama\BLL\bin\Debug\BLL.dll
 D:\Dot Net\Planorama\Planorama\BLL\bin\Debug\BLL.pdb
 D:\Dot Net\Planorama\Planorama\BLL\bin\Debug\AutoMapper.dll
@@ -34,3 +22,16 @@ D:\Dot Net\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\Dot Net\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\Dot Net\Planorama\Planorama\BLL\obj\Debug\BLL.dll
 D:\Dot Net\Planorama\Planorama\BLL\obj\Debug\BLL.pdb
+D:\Project\Planorama\Planorama\BLL\bin\Debug\BLL.dll
+D:\Project\Planorama\Planorama\BLL\bin\Debug\BLL.pdb
+D:\Project\Planorama\Planorama\BLL\bin\Debug\AutoMapper.dll
+D:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.dll
+D:\Project\Planorama\Planorama\BLL\bin\Debug\EntityFramework.dll
+D:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.pdb
+D:\Project\Planorama\Planorama\BLL\bin\Debug\DAL.dll.config
+D:\Project\Planorama\Planorama\BLL\bin\Debug\AutoMapper.xml
+D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.dll
+D:\Project\Planorama\Planorama\BLL\obj\Debug\BLL.pdb

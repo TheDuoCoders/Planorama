@@ -36,5 +36,32 @@ namespace BLL.Services
             return mapped;
 
         }
+
+        public static bool Create(DecorationsCategoryDTO decorationsCategory)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<DecorationsCategoryDTO, DecorationsCategory>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<DecorationsCategory>(decorationsCategory);
+            return DataAccessFactory.DecorationsCategoryData().Create(data);
+        }
+
+        public static bool Update(DecorationsCategoryDTO decorationsCategory)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<DecorationsCategoryDTO, DecorationsCategory>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<DecorationsCategory>(decorationsCategory);
+            return DataAccessFactory.DecorationsCategoryData().Update(data);
+        }
+
+        public static bool Delete(int decorationsCategoryId)
+        {
+            return DataAccessFactory.DecorationsCategoryData().Delete(decorationsCategoryId);
+        }
     }
 }
