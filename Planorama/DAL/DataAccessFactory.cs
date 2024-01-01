@@ -1,0 +1,50 @@
+﻿using DAL.Interfaces;
+using DAL.Models;
+using DAL.Repos;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL
+{
+    public class DataAccessFactory
+    {
+        public static IRepo<FoodsCategory,int,bool> FoodsCategoryData()
+        {
+            return new FoodsCategoryRepo();
+
+        }
+
+        public static IRepo<Food, int, bool> FoodData()
+        {
+            return new FoodRepo();
+
+        }
+
+        public static IRepo<DecorationsCategory, int, bool> DecorationsCategoryData()
+        {
+            return new DecorationsCategoryRepo();
+
+        }
+
+        public static IRepo<Decoration, int, bool> DecorationData()
+        {
+            return new DecorationRepo();
+
+        }
+
+        public static IRepo<LocationsCategory, int, bool> LocationsCategoryData()
+        {
+            return new LocationsCategoryRepo();
+
+        }
+
+        public static IRepo<Location, int, bool> LocationData()
+        {
+            return new LocationRepo();
+
+        }
+    }
+}
