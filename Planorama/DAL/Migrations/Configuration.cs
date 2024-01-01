@@ -37,7 +37,7 @@
             }
 
             //food (20 categories)
-            for (int i = 1; i <= 6; i++)
+            for (int i = 1; i <= 20; i++)
             {
                 context.Foods.AddOrUpdate(new Models.Food
                 {
@@ -65,7 +65,7 @@
             }
 
             //Decoration (20 categories)
-            for (int i = 1; i <= 6; i++)
+            for (int i = 1; i <= 20; i++)
             {
                 context.Decorations.AddOrUpdate(new Models.Decoration
                 {
@@ -94,7 +94,7 @@
             }
 
             //Location (20 categories)
-            for (int i = 1; i <= 6; i++)
+            for (int i = 1; i <= 20; i++)
             {
                 context.Locations.AddOrUpdate(new Models.Location
                 {
@@ -159,7 +159,7 @@
                 });
             }
 
-            /*/Package table (10 Packages)
+            //Package table (10 Packages)
             for (int i = 1; i <= 10; i++)
             {
                 context.Packages.AddOrUpdate(new Models.Package
@@ -169,9 +169,9 @@
                     Photo = Guid.NewGuid().ToString().Substring(0,10),
                     Description = Guid.NewGuid().ToString().Substring(0,20),
                     Price = random.Next(50, 1500)*1000,
-                    //Food Id Need
-                    //Decoration Id Need
-                    //Location Id Need
+                    FoodId = random.Next(1, 21),
+                    DecorationId = random.Next(1, 21),
+                    LocationId = random.Next(1, 21),
                     GuestAmount = random.Next(1, 50) * 100,
                 });
             }
@@ -187,12 +187,26 @@
                     Photo = Guid.NewGuid().ToString().Substring(0, 10),
                     Description = Guid.NewGuid().ToString().Substring(0, 20),
                     Price = random.Next(50, 1500) * 1000,
-                    //Food Id Need
-                    //Decoration Id Need
-                    //Location Id Need
+                    FoodId = random.Next(1, 21),
+                    DecorationId = random.Next(1, 21),
+                    LocationId = random.Next(1, 21),
                     GuestAmount = random.Next(1, 50) * 100,
                 });
-            }*/
+            }
+
+            //Booking table (5 Custom Packages)
+            for (int i = 1; i <= 5; i++)
+            {
+                context.Bookings.AddOrUpdate(new Models.Booking
+                {
+                    Id = i,
+                    PackageId = random.Next(1, 11),
+                    Price = random.Next(50, 1500) * 10000,
+                    OrderedBy = "User-" + i,
+                    CouponId = 0,
+                    OrderTime = DateTime.Now,
+                });
+            }
 
 
         }
