@@ -10,8 +10,7 @@ G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CopyComplete
 G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.dll
 G:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.pdb
-D:\
-\Planorama\Planorama\DAL\bin\Debug\DAL.dll.config
+D:\Dot Net\Planorama\Planorama\DAL\bin\Debug\DAL.dll.config
 D:\Dot Net\Planorama\Planorama\DAL\bin\Debug\DAL.dll
 D:\Dot Net\Planorama\Planorama\DAL\bin\Debug\DAL.pdb
 D:\Dot Net\Planorama\Planorama\DAL\bin\Debug\EntityFramework.xml
@@ -48,8 +47,6 @@ D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.FoodUpdated.resource
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.initpackageadd.resources
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.addeed.resources
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.adds.resources
-D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.noftibokking.resources
-D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.Migrations.noftibokkingsadded.resources
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Project\Planorama\Planorama\DAL\obj\Debug\DAL.csproj.CopyComplete

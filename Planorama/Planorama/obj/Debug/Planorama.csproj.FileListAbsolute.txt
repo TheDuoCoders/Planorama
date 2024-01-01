@@ -67,9 +67,6 @@ G:\Project\Planorama\Planorama\Planorama\obj\Debug\Planorama.csproj.CoreCompileI
 G:\Project\Planorama\Planorama\Planorama\obj\Debug\Planorama.csproj.CopyComplete
 G:\Project\Planorama\Planorama\Planorama\obj\Debug\Planorama.dll
 G:\Project\Planorama\Planorama\Planorama\obj\Debug\Planorama.pdb
-D:\Project\Planorama\Planorama\Planorama\bin\Web.config
-D:\Project\Planorama\Planorama\Planorama\bin\Web.Debug.config
-D:\Project\Planorama\Planorama\Planorama\bin\Web.Release.config
 D:\Project\Planorama\Planorama\Planorama\bin\Planorama.dll.config
 D:\Project\Planorama\Planorama\Planorama\bin\Planorama.dll
 D:\Project\Planorama\Planorama\Planorama\bin\Planorama.pdb

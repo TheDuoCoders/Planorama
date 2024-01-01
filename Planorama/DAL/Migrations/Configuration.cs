@@ -221,6 +221,7 @@
                     PackageId = random.Next(1, 10),
                     Price = random.Next(50, 1500) * 1000,
                     OrderedBy = "User-" + random.Next(1, 6),
+<<<<<<< HEAD
                     CouponId = 1,
 =======
                     PackageId = random.Next(1, 11),
@@ -228,6 +229,9 @@
                     OrderedBy = "User-" + i,
                     CouponId = 0,
 >>>>>>> parent of 43d48af (Merge branch 'main' of https://github.com/TheDuoCoders/Planorama)
+=======
+                    CouponId = 0,
+>>>>>>> parent of 513272e (add)
                     OrderTime = DateTime.Now,
                 });
             }*/

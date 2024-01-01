@@ -101,6 +101,7 @@
     <Compile Include="Migrations\202401011453226_adds.designer.cs">
       <DependentUpon>202401011453226_adds.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\202401011654341_noftibokking.cs" />
     <Compile Include="Migrations\202401011654341_noftibokking.designer.cs">
       <DependentUpon>202401011654341_noftibokking.cs</DependentUpon>
@@ -120,6 +121,8 @@
     <Compile Include="Migrations\202401011732003_updatess.designer.cs">
       <DependentUpon>202401011732003_updatess.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> parent of 513272e (add)
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Booking.cs" />
     <Compile Include="Models\Coupon.cs" />
@@ -214,6 +217,7 @@
     <EmbeddedResource Include="Migrations\202401011453226_adds.resx">
       <DependentUpon>202401011453226_adds.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\202401011654341_noftibokking.resx">
       <DependentUpon>202401011654341_noftibokking.cs</DependentUpon>
     </EmbeddedResource>
@@ -228,6 +232,8 @@
     <EmbeddedResource Include="Migrations\202401011732003_updatess.resx">
       <DependentUpon>202401011732003_updatess.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> parent of 513272e (add)
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

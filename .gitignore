@@ -45,7 +45,12 @@ Planorama/.vs/Planorama/v17/.suo
 *.cache
 *.cache
 *.cache
+<<<<<<< HEAD
 *.cache
 *.config
+*.cache
+Planorama/.vs/Planorama/v17/.suo
+=======
+>>>>>>> parent of 513272e (add)
 *.cache
 Planorama/.vs/Planorama/v17/.suo
