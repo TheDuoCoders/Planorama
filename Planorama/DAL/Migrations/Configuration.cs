@@ -57,10 +57,10 @@
 
             DateTime currentDate = DateTime.Now;
             Random random = new Random();
-            int randomAge = random.Next(18, 51);
 
             for (int i = 1; i <= 6; i++)
             {
+                int randomAge = random.Next(18, 51);
                 context.Users.AddOrUpdate(new Models.User
                 {
                     Uname = "User-" + i,
