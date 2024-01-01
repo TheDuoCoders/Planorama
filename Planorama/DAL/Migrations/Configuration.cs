@@ -21,13 +21,12 @@
             //  to avoid creating duplicate seed data.
             for (int i = 1; i <= 6; i++)
             {
-                context.FoodsCategory.AddOrUpdate(new Models.FoodsCategory
+                context.FoodsCategories.AddOrUpdate(new Models.FoodsCategory
                 {
                     Id = i,
                     Name = Guid.NewGuid().ToString().Substring(0, 15),
-                    UName = "User-" + i,
-                    Password = Guid.NewGuid().ToString().Substring(0, 10),
-                    Type = "General"
+                    Description = Guid.NewGuid().ToString().Substring(0, 200),
+                    
 
                 });
             }
