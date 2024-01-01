@@ -206,7 +206,7 @@
                 });
             }
 
-            //Booking table (5 Custom Packages)
+            //Booking table (5 Booking)
             for (int i = 1; i <= 5; i++)
             {
                 context.Bookings.AddOrUpdate(new Models.Booking
